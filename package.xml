@@ -2,9 +2,15 @@
 <package format="2">
   <name>multiaudio_transmit</name>
   <version>2.0.0</version>
-  <description>Robot Audio Transceiver (audio_common based)</description>
+  <description>Robot Audio Transceiver</description>
   <maintainer email="contact@cjt-robotics.de">CJT-Robotics</maintainer>
-  <license>MIT</license>
+
+  <license>TODO</license>
+
+  <url type="website">https://cjt-robotics.de</url>
+  <url type="repository">https://github.com/CJT-Robotics/magnetometer</url>
+
+  <author email="markus.peltsarszky@gmail.com">Markus Peltsarszky</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>audio_capture</depend>
