@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>multiaudio_transmit</name>
+  <version>2.0.0</version>
+  <description>Robot Audio Transceiver (audio_common based)</description>
+  <maintainer email="contact@cjt-robotics.de">CJT-Robotics</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>audio_capture</depend>
+  <depend>audio_play</depend>
+</package>

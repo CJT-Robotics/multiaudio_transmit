@@ -1,0 +1,16 @@
+<launch>
+    <node name="robot_audio_capture" pkg="audio_capture" type="audio_capture" output="screen">
+        <param name="bitrate" value="128"/>
+        <param name="device" value="plughw:4,0"/> 
+        <param name="channels" value="2"/>
+        <param name="sample_rate" value="44100"/>
+        <param name="format" value="mp3"/>
+        <remap from="audio" to="robot/audio_out" />
+    </node>
+
+    <node name="robot_audio_play" pkg="audio_play" type="audio_play" output="screen">
+        <param name="device" value=""/> 
+        <param name="format" value="mp3"/>
+        <remap from="audio" to="robot/audio_in" />
+    </node>
+</launch>
