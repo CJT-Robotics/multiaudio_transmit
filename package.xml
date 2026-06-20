@@ -4,7 +4,13 @@
   <version>2.0.0</version>
   <description>Operator Audio Control and Routing</description>
   <maintainer email="contact@cjt-robotics.de">CJT-Robotics</maintainer>
-  <license>MIT</license>
+
+  <license>TODO</license>
+
+  <url type="website">https://cjt-robotics.de</url>
+  <url type="repository">https://github.com/CJT-Robotics/magnetometer</url>
+
+  <author email="markus.peltsarszky@gmail.com">Markus Peltsarszky</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>rospy</depend>
