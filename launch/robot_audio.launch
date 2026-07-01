@@ -1,7 +1,7 @@
 <launch>
     <node name="robot_audio_capture" pkg="audio_capture" type="audio_capture" output="screen">
         <param name="bitrate" value="128"/>
-        <param name="device" value="plughw:0,0"/> 
+        <param name="device" value="plughw:3,0"/> 
         <param name="channels" value="2"/>
         <param name="sample_rate" value="44100"/>
         <param name="format" value="mp3"/>
